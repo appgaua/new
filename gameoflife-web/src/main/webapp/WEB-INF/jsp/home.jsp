@@ -96,7 +96,7 @@
     <a href="${newGamePage}">New Game</a>
 </div>
 
-<
+<%
     InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("/system.properties");
     Properties prop = new Properties();
     String appVersion = "";
@@ -108,7 +108,7 @@
             ioe.printStackTrace();
         }
     }
->
+%>
 <div class="footer">Game Of Life version <%=appVersion%>
 </div>
 </body>
