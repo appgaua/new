@@ -320,6 +320,11 @@
                                     <version>0.7.2.201409121644</version>
                                 </plugin>
                                 <plugin>
+                                <groupId>repo.maven.apache.org</groupId>
+                                <artifactId>jetty-maven-plugin</artifactId>
+                                 <version>9.2.21.v20170120</version>
+                                  </plugin>
+                                <plugin>
                                     <groupId>org.apache.maven.plugins</groupId>
                                     <artifactId>maven-checkstyle-plugin</artifactId>
                                     <version>3.0.1</version>
